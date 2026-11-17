@@ -1,0 +1,57 @@
+# Maven
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Java
+*.class
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse / STS
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# VS Code
+.vscode/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-prod.properties
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local Spring Boot configuration - never upload
+src/main/resources/application.properties
+src/main/resources/application-local.properties
